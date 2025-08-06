@@ -8,7 +8,7 @@ const prisma = new PrismaClient();
 app.use(json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Prisma Backend!');
+    res.send('Server is running... Loading... Loading... Loading...');
 });
 
 
